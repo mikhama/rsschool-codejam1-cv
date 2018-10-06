@@ -1,0 +1,27 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  background-color: rgb(180, 180, 180);
+}
+
+main {
+  max-width: 740px;
+  margin: 48px auto;
+  background-color: white;
+  border-radius: 24px;
+}
+
+.block {
+  padding: 48px;
+}
+
+.candidate {
+  text-align: center;
+}
+
+.candidate .avatar {
+  width: 300px;
+  height: 300px;
+  border: 12px solid rgb(235, 235, 235);
+  border-radius: 50%;
+}
