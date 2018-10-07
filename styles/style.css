@@ -22,6 +22,11 @@ a:hover {
   text-shadow: 2px 0 1px rgba(66, 66, 66, 0.13);
 }
 
+time {
+  font-weight: 700;
+  color: #f1143c;
+}
+
 .block {
   padding: 48px;
   font-family: "Signika Negative", sans-serif;
@@ -34,7 +39,7 @@ a:hover {
   color: #696868;
 }
 
-.block p:not(.vacancy)::first-letter {
+.block p:not(.no-first-letter)::first-letter {
   display: block;
   float: left;
   padding-right: 16px;
@@ -55,44 +60,6 @@ a:hover {
   color: white;
   background: url("../images/glitch.jpg") 155px 20px;
   text-shadow: 0 0 1px black, 2px 3px 1px #f1143c;
-}
-
-.candidate {
-  text-align: center;
-}
-
-.candidate .avatar {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: 0 0 8px rgb(31, 31, 31);
-}
-
-.candidate .heading {
-  margin-bottom: 0;
-  color: rgb(18, 175, 136);
-  text-shadow: 0 0 1px rgba(255, 255, 255, 0.836), 4px 4px 1px rgba(68, 68, 68, 0.247);
-}
-
-.candidate .vacancy {
-  margin: 8px auto;
-  font-weight: 700;
-  font-size: 18pt;
-}
-
-.candidate .contacts,
-.skills .skills-icons {
-  list-style: none;
-}
-
-.candidate .contacts {
-  margin: 56px 0;
-  padding: 0;
-}
-
-.skills .icon {
-  width: 70px;
-  padding: 14px;
 }
 
 .icon {
@@ -169,4 +136,63 @@ a:hover {
   background-size: cover;
 }
 
+.candidate {
+  text-align: center;
+}
 
+.candidate .avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgb(31, 31, 31);
+}
+
+.candidate .heading {
+  margin-bottom: 0;
+  color: rgb(18, 175, 136);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.836), 4px 4px 1px rgba(68, 68, 68, 0.247);
+}
+
+.candidate .vacancy {
+  margin: 8px auto;
+  font-weight: 700;
+  font-size: 18pt;
+}
+
+.candidate .contacts,
+.skills .skills-icons,
+.education ul {
+  list-style: none;
+}
+
+.candidate .contacts {
+  margin: 56px 0 0;
+  padding: 0;
+}
+
+.skills .icon {
+  width: 70px;
+  padding: 14px;
+}
+
+.code-examples .code {
+  padding: 10px 30px;
+  color: #67ecbc;
+  background-color: rgb(54, 54, 54);
+  box-shadow: 6px 6px 1px rgba(53, 53, 53, 0.185);
+}
+
+.education ul {
+  padding: 0;
+  font-size: 14pt;
+  line-height: 1.5em;
+  color: #696868;
+}
+
+.education .element {
+  margin-top: 36px;
+}
+
+.education .online-courses + .online-courses {
+  margin: 0;
+}
