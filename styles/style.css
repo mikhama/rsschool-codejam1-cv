@@ -12,14 +12,49 @@ main {
   box-shadow: 0 0 16px rgb(31, 31, 31);
 }
 
+a {
+  color: #3e88c4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fe5473;
+  text-shadow: 2px 0 1px rgba(66, 66, 66, 0.13);
+}
+
 .block {
   padding: 48px;
   font-family: "Signika Negative", sans-serif;
 }
 
+.block p:not(.vacancy) {
+  font-size: 14pt;
+  line-height: 1.3em;
+  text-align: justify;
+  color: #696868;
+}
+
+.block p:not(.vacancy)::first-letter {
+  display: block;
+  float: left;
+  padding-right: 16px;
+  font-weight: 400;
+  font-size: 48pt;
+  line-height: 1em;
+  font-family: "Rubik Mono One", sans-serif;
+  color: #f1143c;
+}
+
 .heading {
   font-weight: 400;
   font-family: "Rubik Mono One", sans-serif;
+}
+
+.heading:not(h1) {
+  padding-left: 48px;
+  color: white;
+  background: url("../images/glitch.jpg") 155px 20px;
+  text-shadow: 0 0 1px black, 2px 3px 1px #f1143c;
 }
 
 .candidate {
@@ -83,14 +118,4 @@ main {
 .contacts .website::before {
   background: url("../images/website.png");
   background-size: cover;
-}
-
-.contacts .icon a {
-  color: rgb(99, 99, 99);
-  text-decoration: none;
-}
-
-.contacts .icon a:hover {
-  color: #fe5473;
-  text-shadow: 2px 0 1px rgba(66, 66, 66, 0.13);
 }
