@@ -22,10 +22,6 @@ main {
   font-family: "Rubik Mono One", sans-serif;
 }
 
-h1.heading {
-  text-shadow: 4px 4px 1px rgba(68, 68, 68, 0.247);
-}
-
 .candidate {
   text-align: center;
 }
@@ -35,4 +31,66 @@ h1.heading {
   height: 300px;
   border-radius: 50%;
   box-shadow: 0 0 8px rgb(31, 31, 31);
+}
+
+.candidate .heading {
+  margin-bottom: 0;
+  color: rgb(18, 175, 136);
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.836), 4px 4px 1px rgba(68, 68, 68, 0.247);
+}
+
+.candidate .vacancy {
+  margin: 8px auto;
+  font-weight: 700;
+  font-size: 18pt;
+}
+
+.candidate .contacts {
+  margin: 56px auto;
+  padding: 0;
+  list-style: none;
+}
+
+.candidate .contacts .icon {
+  position: relative;
+  display: inline-block;
+  margin-left: 48px;
+  padding: 0 12px;
+  height: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+.contacts .icon::before {
+  position: absolute;
+  left: -48px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: " ";
+}
+
+.contacts .phone::before {
+  background: url("../images/phone.png");
+  background-size: cover;
+}
+
+.contacts .email::before {
+  background: url("../images/email.png");
+  background-size: cover;
+}
+
+.contacts .website::before {
+  background: url("../images/website.png");
+  background-size: cover;
+}
+
+.contacts .icon a {
+  color: rgb(99, 99, 99);
+  text-decoration: none;
+}
+
+.contacts .icon a:hover {
+  color: #fe5473;
+  text-shadow: 2px 0 1px rgba(66, 66, 66, 0.13);
 }
