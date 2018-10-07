@@ -1,144 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>CV: Dzmitry Tsebruk</title>
-  <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Rubik+Mono+One|Signika+Negative:400,700">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <base target="_blank">
-</head>
-<body>
-  <main>
-    <article class="block candidate">
-      <img class="avatar" src="images/avatar.jpg" alt="I am on the photo" width="300" height="300">
-      <h1 class="heading">Dzmitry Tsebruk</h1>
-      <p class="vacancy no-first-letter">Junior Software Engineer</p>
-      <ul class="contacts">
-          <li class="icon phone"><a href="tel://+375-29-527-14-81">+375 (29) 527-14-81</a></li>
-          <li class="icon email"><a href="mailto:mikhama@tut.by">mikhama@tut.by</a></li>
-          <li class="icon website"><a href="http://mikhama.art/">mikhama.art</a></li>
-      </ul>
-    </article>
-    <article class="block summary">
-      <h2 class="heading">Summary</h2>
-      <p>
-        My goal is to apply my technical skills and knowledge in the Front-end
-        Development for creating high quality products which will be matching
-        clients expections. I certain than my purpose can be achived, because
-        I have good knowledge basement and strong skills, ability learning fast
-        and fulfil objectives. I am constantly improving my skills and trying
-        to be aware of new trends in IT. I can to be effective and helpful for
-        the company.
-      </p>
-    </article>
-    <article class="block skills">
-      <h2 class="heading">Skills</h2>
-      <ul class="skills-icons">
-        <li class="icon js">JavaScript</li>
-        <li class="icon html">HTML</li>
-        <li class="icon css">CSS</li>
-        <li class="icon git">Git</li>
-        <li class="icon console">Unix/Linux</li>
-        <li class="icon ajax">AJAX</li>
-        <li class="icon oop">OOP</li>
-        <li class="icon mvc">MVC</li>
-      </ul>
-    </article>
-    <article class="block code-examples">
-      <h2 class="heading">Code Examples</h2>
-      <pre class="code">
-  module.exports = function solveEquation(equation) {
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CV: Dzmitry Tsebruk</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rubik+Mono+One">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Signika+Negative:400,700">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <base target="_blank">
+  </head>
+  <body>
+    <main>
+      <article class="block candidate">
+        <img class="avatar" src="images/avatar.jpg" alt="I am on the photo" width="300" height="300">
+        <h1 class="heading">Dzmitry Tsebruk</h1>
+        <p class="vacancy no-first-letter">Junior Software Engineer</p>
+        <ul class="contacts">
+            <li class="icon phone"><a href="tel://+375-29-527-14-81">+375 (29) 527-14-81</a></li>
+            <li class="icon email"><a href="mailto:mikhama@tut.by">mikhama@tut.by</a></li>
+            <li class="icon website"><a href="http://mikhama.art/">mikhama.art</a></li>
+        </ul>
+      </article>
+      <article class="block summary">
+        <h2 class="heading">Summary</h2>
+        <p>
+          My goal is to apply my technical skills and knowledge in the Front-end
+          Development for creating high quality products which will be matching
+          clients expections. I certain than my purpose can be achived, because
+          I have good knowledge basement and strong skills, ability learning fast
+          and fulfil objectives. I am constantly improving my skills and trying
+          to be aware of new trends in IT. I can to be effective and helpful for
+          the company.
+        </p>
+      </article>
+      <article class="block skills">
+        <h2 class="heading">Skills</h2>
+        <ul class="skills-icons">
+          <li class="icon js">JavaScript</li>
+          <li class="icon html">HTML</li>
+          <li class="icon css">CSS</li>
+          <li class="icon git">Git</li>
+          <li class="icon console">Unix/Linux</li>
+          <li class="icon ajax">AJAX</li>
+          <li class="icon oop">OOP</li>
+          <li class="icon mvc">MVC</li>
+        </ul>
+      </article>
+      <article class="block code-examples">
+        <h2 class="heading">Code Examples</h2>
+        <pre class="code">
+    module.exports = function solveEquation(equation) {
 
-    const array = equation.split(' '),
-          a = Number(array[0]),
-          b = Number(array[3] + array[4]),
-          c = Number(array[7] + array[8]),
-          D = Math.pow(b, 2) - 4 * a * c,
-          solutions = [];
+      const array = equation.split(' '),
+            a = Number(array[0]),
+            b = Number(array[3] + array[4]),
+            c = Number(array[7] + array[8]),
+            D = Math.pow(b, 2) - 4 * a * c,
+            solutions = [];
 
-    solutions[0] = Math.round( (-b - Math.sqrt(D)) / (2 * a) );
-    solutions[1] = Math.round( (-b + Math.sqrt(D)) / (2 * a) );
+      solutions[0] = Math.round( (-b - Math.sqrt(D)) / (2 * a) );
+      solutions[1] = Math.round( (-b + Math.sqrt(D)) / (2 * a) );
 
-    solutions.sort( (a, b) =&gt; a - b );
+      solutions.sort( (a, b) =&gt; a - b );
 
-    return solutions;
-  }
-      </pre>
-      <p class="no-first-letter">
-        More code examples you can find on my
-        <a href="https://github.com/mikhama">GitHub account</a>.
-      </p>
-    </article>
-    <article class="block experience">
-      <h2 class="heading">Experience</h2>
-      <p>
-          I am getting experience on Rolling Scopes School Courses. I am improving my
-          skills in semantic true HTML-markup, styling CSS-sheets, JavaScript coding,
-          and using Git. You will see my tasks and projects on my
-          <a href="https://github.com/mikhama">GitHub account.</a>
-          I also have a little experience in PHP, and with Kohana Framework. I had
-          been creating pages with AJAX technology.
-      </p>
-    </article>
-    <article class="block education">
-      <h2 class="heading">Education</h2>
-      <ul>
-        <li class="element workshop">
-            <time datetime="2018-09-21">September 21th, 2018</time>
-            <a href="https://communities.by/events/new-adventures-in-front-end/talks/35">
-              "New Adventures in Front-End"
-            </a>
-            by Vitaly Friedman
-        </li>
-        <li class="element online-courses">
-            <time datetime="2018-09-14">September 14th</time>-<time datetime="2018-09-16">16th, 2018</time>
-            "Learn CSS" on <a href="https://www.codecademy.com/mikhama">Codeacademy</a>
-        </li>
-        <li class="element online-courses">
-            <time datetime="2018-09-13">September 13th</time>-<time datetime="2018-09-14">14th, 2018 </time>
-            "Introduction to HTML" on <a href="https://www.codecademy.com/mikhama">Codeacademy</a>
-        </li>
-        <li class="element rss-courses">
-            <time datetime="2018">2018 - Till now</time>
-            <a href="https://school.rollingscopes.com/">Rolling Scopes School</a> (Q3-2018)
-        </li>
-        <li class="element state-education">
-            <time datetime="2012">2012</time> - <time datetime="2016">2016</time>
-            <a href="https://www.bsuir.by/">BSUIR</a>, Minsk, Belarus
-            <ul>
-              <li><b>Faculty:</b> Distance Education</li>
-              <li><b>Department:</b> Professional Education (Informatics)</li>
-              <li><b>Degree information:</b> Higher</li>
-              <li><b>Education form:</b> Distant</li>
-            </ul>
-        </li>
-        <li class="element state-education">
-            <time datetime="2008">2008</time> - <time datetime="2012">2012</time>
-            <a href="http://www.mrk-bsuir.by/ru">MRC-BSUIR (ex MHSRC)</a>, Minsk, Belarus
-            <ul>
-              <li><b>Faculty:</b> Programming</li>
-              <li><b>Department:</b> Informatics</li>
-              <li><b>Degree information:</b> Technical school</li>
-              <li><b>Education form:</b> Full-time</li>
-            </ul>
-        </li>
-      </ul>
-    </article>
-    <article class="block english-level">
-      <h2 class="heading">English Level</h2>
-      <p>
-        I have been learning English since
-        <time datetime="2018-05-30">May 30th, 2018</time> and practicing it
-        every day. Specifically I use the site learnamericanenglishonline.com for
-        learning grammar, reading and listening, Duolingo application on my phone for
-        practicing English, and flashcards with words are written on them by hand
-        for learning new words. The EPAM Trainining Portal had shown me A2+ English
-        level when I passed the test at
-        <time datetime="2018-09-09">September 9th, 2018</time>.
-      </p>
-    </article>
-  </main>
-</body>
-</html>
+      return solutions;
+    }
+        </pre>
+        <p class="no-first-letter">
+          More code examples you can find on my
+          <a href="https://github.com/mikhama">GitHub account</a>.
+        </p>
+      </article>
+      <article class="block experience">
+        <h2 class="heading">Experience</h2>
+        <p>
+            I am getting experience on Rolling Scopes School Courses. I am improving my
+            skills in semantic true HTML-markup, styling CSS-sheets, JavaScript coding,
+            and using Git. You will see my tasks and projects on my
+            <a href="https://github.com/mikhama">GitHub account.</a>
+            I also have a little experience in PHP, and with Kohana Framework. I had
+            been creating pages with AJAX technology.
+        </p>
+      </article>
+      <article class="block education">
+        <h2 class="heading">Education</h2>
+        <ul>
+          <li class="element workshop">
+              <time datetime="2018-09-21">September 21th, 2018</time>
+              <a href="https://communities.by/events/new-adventures-in-front-end/talks/35">
+                "New Adventures in Front-End"
+              </a>
+              by Vitaly Friedman
+          </li>
+          <li class="element online-courses">
+              <time datetime="2018-09-14">September 14th</time>-<time datetime="2018-09-16">16th, 2018</time>
+              "Learn CSS" on <a href="https://www.codecademy.com/mikhama">Codeacademy</a>
+          </li>
+          <li class="element online-courses">
+              <time datetime="2018-09-13">September 13th</time>-<time datetime="2018-09-14">14th, 2018 </time>
+              "Introduction to HTML" on <a href="https://www.codecademy.com/mikhama">Codeacademy</a>
+          </li>
+          <li class="element rss-courses">
+              <time datetime="2018">2018 - Till now</time>
+              <a href="https://school.rollingscopes.com/">Rolling Scopes School</a> (Q3-2018)
+          </li>
+          <li class="element state-education">
+              <time datetime="2012">2012</time> - <time datetime="2016">2016</time>
+              <a href="https://www.bsuir.by/">BSUIR</a>, Minsk, Belarus
+              <ul>
+                <li><b>Faculty:</b> Distance Education</li>
+                <li><b>Department:</b> Professional Education (Informatics)</li>
+                <li><b>Degree information:</b> Higher</li>
+                <li><b>Education form:</b> Distant</li>
+              </ul>
+          </li>
+          <li class="element state-education">
+              <time datetime="2008">2008</time> - <time datetime="2012">2012</time>
+              <a href="http://www.mrk-bsuir.by/ru">MRC-BSUIR (ex MHSRC)</a>, Minsk, Belarus
+              <ul>
+                <li><b>Faculty:</b> Programming</li>
+                <li><b>Department:</b> Informatics</li>
+                <li><b>Degree information:</b> Technical school</li>
+                <li><b>Education form:</b> Full-time</li>
+              </ul>
+          </li>
+        </ul>
+      </article>
+      <article class="block english-level">
+        <h2 class="heading">English Level</h2>
+        <p>
+          I have been learning English since
+          <time datetime="2018-05-30">May 30th, 2018</time> and practicing it
+          every day. Specifically I use the site learnamericanenglishonline.com for
+          learning grammar, reading and listening, Duolingo application on my phone for
+          practicing English, and flashcards with words are written on them by hand
+          for learning new words. The EPAM Trainining Portal had shown me A2+ English
+          level when I passed the test at
+          <time datetime="2018-09-09">September 9th, 2018</time>.
+        </p>
+      </article>
+    </main>
+  </body>
+  </html>
