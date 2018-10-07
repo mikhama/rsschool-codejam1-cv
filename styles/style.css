@@ -9,6 +9,7 @@ main {
   margin: 48px auto;
   background: url("../images/exclusive_paper.jpg");
   border-radius: 24px;
+  box-shadow: 0 0 16px rgb(31, 31, 31);
 }
 
 .block {
@@ -21,6 +22,10 @@ main {
   font-family: "Rubik Mono One", sans-serif;
 }
 
+h1.heading {
+  text-shadow: 4px 4px 1px rgba(68, 68, 68, 0.247);
+}
+
 .candidate {
   text-align: center;
 }
@@ -28,6 +33,6 @@ main {
 .candidate .avatar {
   width: 300px;
   height: 300px;
-  border: 4px solid black;
   border-radius: 50%;
+  box-shadow: 0 0 8px rgb(31, 31, 31);
 }
